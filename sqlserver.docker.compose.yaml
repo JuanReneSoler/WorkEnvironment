@@ -1,0 +1,20 @@
+version: "2.20.2"
+services:
+  sqlserver:
+    container_name: "sqlserver"
+    image: mcr.microsoft.com/mssql/server
+    ports:
+      - 1433:1433
+    environment:
+      ACCEPT_EULA: "Y"
+      MSSQL_SA_PASSWORD: "Linux@1993"
+    volumes:
+      - type: bind
+        source: ~/Workspace/SQLData
+        target: /var/opt/mssql
+    networks:
+      - db
+    restart: always
+networks:
+  db:
+    driver: bridge
