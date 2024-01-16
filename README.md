@@ -16,5 +16,3 @@ for windows: https://github.com/coreybutler/nvm-windows/releases
 for linux:
 2-) nvm install 10; nvm use 10;
 #################################################################
-#install tmux package manager
-git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
