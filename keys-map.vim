@@ -1,7 +1,7 @@
 "custom maps
 nmap <Leader>q :q<cr>
 nmap <Leader>Q :qa<cr>
-nmap <leader>w :Prettier<CR>:w!<CR>
+nmap <leader>w :w!<CR>
 imap <Leader><TAB> <ESC>
 
 "coc-tree
