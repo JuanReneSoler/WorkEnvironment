@@ -4,3 +4,4 @@ and not set -q TMUX
 end
 set -Ux EDITOR /usr/bin/nvim
 set -gx PROJECT_PATHS ~/workspace
+set -gx PATH $PATH ~/.dotnet/tools

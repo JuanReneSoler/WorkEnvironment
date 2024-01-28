@@ -44,4 +44,4 @@ nnoremap <silent><Leader>R  :Farr<cr>
 vnoremap <silent><Leader>R  :Farr<cr>
 
 "lazygit
-nmap <silent> <Leader>gg :LazyGit<CR>
+nmap <silent> <Leader>G :LazyGit<CR>
