@@ -47,7 +47,7 @@ Plug 'junegunn/fzf.vim'
 Plug 'scrooloose/nerdcommenter'
 
 "terminal virtual dentro de vim
-"Plug 'voldikss/vim-floaterm'
+Plug 'voldikss/vim-floaterm'
 
 "vim-polyglot, coloreo del codigo
 Plug 'sheerun/vim-polyglot'

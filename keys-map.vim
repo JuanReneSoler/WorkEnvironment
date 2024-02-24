@@ -21,7 +21,7 @@ imap <Leader>:: <Esc>$a:
 imap <Leader>,, <Esc>$a,
 
 "float-term
-"nmap <Leader>x :FloatermNew<cr>
+nmap <Leader>x :FloatermNew<cr>
 
 "codi
 nmap <Leader>xx :Codi!!<cr>
