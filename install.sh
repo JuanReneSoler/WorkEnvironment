@@ -5,6 +5,10 @@
 curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
     https://raw.githubusercontent.com/junegunn/vim-plug/master/plug.vim
 
+mkdir ~/.config
+mkdir ~/.config/nvim
+mkdir ~/.config/fish
+
 ln -s -r -f ./vimrc ~/.vim/vimrc
 ln -s -r -f ./plugins.vim ~/.vim/plugins.vim
 ln -s -r -f ./keys-map.vim ~/.vim/keys-map.vim
