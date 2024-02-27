@@ -1,7 +1,7 @@
 #!/bin/bash
 
-sudo pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger fish lazygit less python-pynvim which
-pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger fish lazygit less python-pynvim which
+sudo pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger fish lazygit less python-pynvim which nodejs npm
+pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger fish lazygit less python-pynvim which nodejs npm
 
 
 # google chrome plugins 
