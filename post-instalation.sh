@@ -1,3 +1,5 @@
-#!/bin/bash
+#!/usr/bin/fish
 
-omf install (cat plugins.fish.list)
+while read -l plugin
+    omf install $plugin
+end < plugins.fish.list
