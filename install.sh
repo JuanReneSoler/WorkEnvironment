@@ -21,4 +21,6 @@ ln -s -r -f ./init.vim ~/.config/nvim/init.vim
 
 git clone https://github.com/tmux-plugins/tpm ~/.tmux/plugins/tpm
 
+curl https://raw.githubusercontent.com/oh-my-fish/oh-my-fish/master/bin/install | fish
+
 echo finishied!
