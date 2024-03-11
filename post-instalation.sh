@@ -1,5 +1,8 @@
-#!/usr/bin/fish
+#!/bin/zsh
 
-while read -l plugin
-    omf install $plugin
-end < plugins.fish.list
+rm ~/.zshrc
+ln -s -r -f ./.zshrc ~/.zshrc
+
+#while read -l plugin
+#    omf install $plugin
+#end < plugins.fish.list
