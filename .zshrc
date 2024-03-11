@@ -1,3 +1,5 @@
+if [ "$TMUX" = "" ]; then tmux -2 new-session ranger ~; fi #execute tmux and ranger
+
 # If you come from bash you might have to change your $PATH.
 # export PATH=$HOME/bin:/usr/local/bin:$PATH
 
