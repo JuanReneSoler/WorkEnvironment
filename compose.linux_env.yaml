@@ -18,5 +18,5 @@ services:
       - db
 networks:
   db:
-    name: linuxconfig_db
+    name: workenvironment_db
     external: true
