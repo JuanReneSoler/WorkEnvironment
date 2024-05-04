@@ -1,7 +1,8 @@
 #!/bin/sh
 
-pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger zsh lazygit less python-pynvim which npm
+#pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger zsh lazygit less python-pynvim which npm
 
+dnf install w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger zsh lazygit less python-pynvim which npm
 
 # google chrome plugins 
 # postman
