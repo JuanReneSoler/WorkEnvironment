@@ -10,7 +10,7 @@ services:
       MSSQL_SA_PASSWORD: "Linux@1993"
     volumes:
       - type: bind
-        source: /sqldata
+        source: /home/juansoler/Workspace/sqldata
         target: /var/opt/mssql
     networks:
       - db
