@@ -7,8 +7,8 @@ curl -fLo ~/.vim/autoload/plug.vim --create-dirs \
 
 mkdir ~/.config
 mkdir ~/.config/nvim
+sudo mkdir /sqldata
 touch ~/.zshenv
-mkdir /sqldata
 
 sudo ln -s -r -f ./vimrc ~/.vim/vimrc
 sudo ln -s -r -f ./plugins.vim ~/.vim/plugins.vim
