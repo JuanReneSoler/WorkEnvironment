@@ -17,6 +17,7 @@ PROJECT_PATHS=(~/Workspace)
 plugins=(git z pj) 
 
 source $ZSH/oh-my-zsh.sh 
+source ~/.zshenv
 
 # Source manjaro-zsh-configuration
 if [[ -e /usr/share/zsh/manjaro-zsh-config ]]; then
