@@ -20,7 +20,7 @@ then
     mkdir ~/.config
 fi
 
-if [ -d "~/Workspace" ];
+if [ ! -d "~/Workspace/sqldata" ];
 then
     mkdir ~/Workspace/sqldata
 fi
