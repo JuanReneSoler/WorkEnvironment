@@ -1,6 +1,6 @@
 #!/bin/bash
 
-sudo pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger zsh lazygit less python-pynvim which npm
+sudo pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger zsh lazygit less python-pynvim which
 # google chrome plugins 
 # postman
 # easy auto refesh
