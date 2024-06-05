@@ -1,8 +1,9 @@
-if [ "$TMUX" = "" ]; then tmux -2 new-session ranger ~; fi #execute tmux and ranger
-
 export EDITOR=/usr/bin/nvim
-export PATH=$PATH:~/.dotnet/tools 
+export PATH=$PATH:~/.dotnet/tools
 export ZSH="$HOME/.oh-my-zsh" 
+export NVM_DIR="$([ -z "${XDG_CONFIG_HOME-}"  ] && printf %s "${HOME}/.nvm" || printf %s "${XDG_CONFIG_HOME}/nvm")"
+[ -s "$NVM_DIR/nvm.sh"  ] && \. "$NVM_DIR/nvm.sh" # This loads nvm
+export PATH=$PATH:$HOME/.nvm/versions/node/$(nvm version)/bin
 
 # Use powerline
 USE_POWERLINE="true"
@@ -27,3 +28,5 @@ fi
 if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
   source /usr/share/zsh/manjaro-zsh-prompt
 fi
+#
+if [ "$TMUX" = "" ]; then tmux -2 new-session ranger ~; fi #execute tmux and ranger
