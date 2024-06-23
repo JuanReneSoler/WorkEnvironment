@@ -30,3 +30,4 @@ if [[ -e /usr/share/zsh/manjaro-zsh-prompt ]]; then
 fi
 #
 if [ "$TMUX" = "" ]; then tmux -2 new-session ranger ~; fi #execute tmux and ranger
+[ -s "$NVM_DIR/bash_completion" ] && \. "$NVM_DIR/bash_completion"  # This loads nvm bash_completion
