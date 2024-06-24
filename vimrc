@@ -13,7 +13,7 @@ set number
 
 "setea que se mueltre las lineas que hay hacia arriba y hacia
 "a abajo desde la posicion actual del cursor
-set relativenumber
+"set relativenumber
 
 "setea el uso de mause en todos los modos del de vim
 set mouse=a
