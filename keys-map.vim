@@ -11,7 +11,15 @@ nmap <Leader>; :CocCommand explorer<cr>
 nmap <silent> f <Plug>(easymotion-s2)
 
 "fzf
-nmap <Leader>f :GFiles<CR>
+let dir_to_check = '.git'
+let current_path = expand('%:p:h')
+
+if isdirectory(current_path . '/' . dir_to_check)
+  nmap <Leader>f :GFiles<CR>
+else
+  nmap <Leader>f :Files<CR>
+endif
+
 nmap <Leader>b :Buff<CR>
 nmap <Leader>t :Ag<CR>
 
