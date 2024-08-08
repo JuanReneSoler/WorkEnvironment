@@ -15,7 +15,7 @@ let g:UltiSnipsJumpBackwardTrigger="<s-h>"
 let g:UltiSnipsEditSplit="vertical"
 
 "coc configuration
-let g:coc_global_extensions = ['coc-angular', 'coc-css', 'coc-cssmodules', 'coc-diagnostic', 'coc-emmet', 'coc-explorer', 'coc-git', 'coc-html', 'coc-html-css-support', 'coc-json', 'coc-omnisharp', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-symbol-line', 'coc-xml', 'coc-sql']
+let g:coc_global_extensions = ['coc-angular', 'coc-css', 'coc-cssmodules', 'coc-diagnostic', 'coc-emmet', 'coc-explorer', 'coc-git', 'coc-html', 'coc-html-css-support', 'coc-json', 'coc-omnisharp', 'coc-prettier', 'coc-tsserver', 'coc-snippets', 'coc-symbol-line', 'coc-xml', 'coc-sqlfluff']
   "'coc-copilot',
   "'coc-nav', 
 

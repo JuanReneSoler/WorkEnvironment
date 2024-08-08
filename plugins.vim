@@ -79,4 +79,7 @@ Plug 'puremourning/vimspector'
 "search text and replace in multiple files
 Plug 'brooth/far.vim'
 
+"sql
+Plug 'yaegassy/coc-sqlfluff', {'do': 'yarn install --frozen-lockfile'}
+
 call plug#end()
