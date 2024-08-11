@@ -80,6 +80,6 @@ Plug 'puremourning/vimspector'
 Plug 'brooth/far.vim'
 
 "sql
-Plug 'yaegassy/coc-sqlfluff', {'do': 'yarn install --frozen-lockfile'}
+"Plug 'yaegassy/coc-sqlfluff', {'do': 'yarn install --frozen-lockfile'}
 
 call plug#end()
