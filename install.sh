@@ -1,7 +1,7 @@
 #!/bin/bash
 
 #sudo pacman -Syu w3m neovim github-cli cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger zsh lazygit less python-pynvim which
-sudo dnf install w3m neovim gh cmatrix curl htop iftop bmon neofetch sl tmux asciiquarium ranger zsh less pip which
+sudo dnf install w3m neovim gh cmatrix curl htop iftop bmon fastfetch sl tmux asciiquarium ranger zsh less pip which
 pip install pynvim sqlfluff
 sudo dnf copr enable atim/lazygit -y
 sudo dnf install lazygit
